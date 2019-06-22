@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FBC732EC22BE9C2700691AFA /* VC1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC732EB22BE9C2700691AFA /* VC1ViewController.swift */; };
+		FBC732EE22BE9C3700691AFA /* VC2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC732ED22BE9C3700691AFA /* VC2ViewController.swift */; };
+		FBC732F022BEA9C300691AFA /* EmptySegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC732EF22BEA9C300691AFA /* EmptySegue.swift */; };
+		FBC732F222BEAA6900691AFA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC732F122BEAA6900691AFA /* MainViewController.swift */; };
 		FBD1EE4822BE986300021C7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1EE4722BE986300021C7E /* AppDelegate.swift */; };
 		FBD1EE4A22BE986300021C7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1EE4922BE986300021C7E /* ViewController.swift */; };
 		FBD1EE4D22BE986300021C7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD1EE4B22BE986300021C7E /* Main.storyboard */; };
@@ -14,8 +18,7 @@
 		FBD1EE5222BE986600021C7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD1EE5022BE986600021C7E /* LaunchScreen.storyboard */; };
 		FBD1EE5D22BE986600021C7E /* POCContainerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1EE5C22BE986600021C7E /* POCContainerViewTests.swift */; };
 		FBD1EE6822BE986600021C7E /* POCContainerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1EE6722BE986600021C7E /* POCContainerViewUITests.swift */; };
-		FBD1EE7B22BE98D200021C7E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1EE7922BE98D200021C7E /* MainViewController.swift */; };
-		FBD1EE7C22BE98D200021C7E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBD1EE7A22BE98D200021C7E /* MainViewController.xib */; };
+		FBD1EE7B22BE98D200021C7E /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1EE7922BE98D200021C7E /* ContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FBC732EB22BE9C2700691AFA /* VC1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC1ViewController.swift; sourceTree = "<group>"; };
+		FBC732ED22BE9C3700691AFA /* VC2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2ViewController.swift; sourceTree = "<group>"; };
+		FBC732EF22BEA9C300691AFA /* EmptySegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySegue.swift; sourceTree = "<group>"; };
+		FBC732F122BEAA6900691AFA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = POCContainerView/Scenes/MainViewController.swift; sourceTree = SOURCE_ROOT; };
 		FBD1EE4422BE986300021C7E /* POCContainerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POCContainerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD1EE4722BE986300021C7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBD1EE4922BE986300021C7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,8 +56,7 @@
 		FBD1EE6322BE986600021C7E /* POCContainerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCContainerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD1EE6722BE986600021C7E /* POCContainerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCContainerViewUITests.swift; sourceTree = "<group>"; };
 		FBD1EE6922BE986600021C7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBD1EE7922BE98D200021C7E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		FBD1EE7A22BE98D200021C7E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		FBD1EE7922BE98D200021C7E /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +147,7 @@
 		FBD1EE7622BE989200021C7E /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				FBC732F122BEAA6900691AFA /* MainViewController.swift */,
 				FBD1EE7722BE989F00021C7E /* ContainerView */,
 				FBD1EE7822BE98AA00021C7E /* ChildViewController */,
 			);
@@ -150,8 +157,8 @@
 		FBD1EE7722BE989F00021C7E /* ContainerView */ = {
 			isa = PBXGroup;
 			children = (
-				FBD1EE7922BE98D200021C7E /* MainViewController.swift */,
-				FBD1EE7A22BE98D200021C7E /* MainViewController.xib */,
+				FBD1EE7922BE98D200021C7E /* ContainerViewController.swift */,
+				FBC732EF22BEA9C300691AFA /* EmptySegue.swift */,
 			);
 			path = ContainerView;
 			sourceTree = "<group>";
@@ -159,6 +166,8 @@
 		FBD1EE7822BE98AA00021C7E /* ChildViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FBC732EB22BE9C2700691AFA /* VC1ViewController.swift */,
+				FBC732ED22BE9C3700691AFA /* VC2ViewController.swift */,
 			);
 			path = ChildViewController;
 			sourceTree = "<group>";
@@ -270,7 +279,6 @@
 				FBD1EE5222BE986600021C7E /* LaunchScreen.storyboard in Resources */,
 				FBD1EE4F22BE986600021C7E /* Assets.xcassets in Resources */,
 				FBD1EE4D22BE986300021C7E /* Main.storyboard in Resources */,
-				FBD1EE7C22BE98D200021C7E /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,9 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBD1EE7B22BE98D200021C7E /* MainViewController.swift in Sources */,
+				FBC732F222BEAA6900691AFA /* MainViewController.swift in Sources */,
+				FBD1EE7B22BE98D200021C7E /* ContainerViewController.swift in Sources */,
 				FBD1EE4A22BE986300021C7E /* ViewController.swift in Sources */,
 				FBD1EE4822BE986300021C7E /* AppDelegate.swift in Sources */,
+				FBC732EE22BE9C3700691AFA /* VC2ViewController.swift in Sources */,
+				FBC732EC22BE9C2700691AFA /* VC1ViewController.swift in Sources */,
+				FBC732F022BEA9C300691AFA /* EmptySegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,7 +486,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L52U2QMKSA;
-				INFOPLIST_FILE = POCContainerView/Info.plist;
+				INFOPLIST_FILE = POCContainerView/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -492,7 +504,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L52U2QMKSA;
-				INFOPLIST_FILE = POCContainerView/Info.plist;
+				INFOPLIST_FILE = POCContainerView/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

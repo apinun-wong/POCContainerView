@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  VC2ViewController.swift
 //  POCContainerView
 //
 //  Created by Apinun Wongintawang on 6/23/19.
@@ -8,14 +8,14 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class VC2ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    
 
     /*
     // MARK: - Navigation
